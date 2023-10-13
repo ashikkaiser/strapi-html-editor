@@ -1,0 +1,55 @@
+{
+  "name": "strapi-html-editor",
+  "version": "1.0.2",
+  "description": "Presenting an alternative to standard wysiwyg editor in Strapi in the form of this HTML-editor that facilitates easier and hussle-free data customization to use with various frontends.",
+  "strapi": {
+    "name": "strapi-wysiwyg",
+    "description": "Presenting an alternative to standard wysiwyg editor in Strapi in the form of this HTML-editor that facilitates easier and hussle-free data customization to use with various frontends.",
+    "kind": "plugin",
+    "displayName": "strapi-html-editor"
+  },
+  "dependencies": {
+    "@ckeditor/ckeditor5-build-classic": "^35.0.1",
+    "@ckeditor/ckeditor5-react": "^5.0.2"
+  },
+  "devDependencies": {
+    "@semantic-release/changelog": "^6.0.1",
+    "@semantic-release/commit-analyzer": "^9.0.2",
+    "@semantic-release/exec": "^6.0.3",
+    "@semantic-release/git": "^10.0.1",
+    "@semantic-release/npm": "^9.0.1",
+    "@semantic-release/release-notes-generator": "^10.0.3"
+  },
+  "author": {
+    "name": "Puspendra Singh",
+    "email": "puspendra09singh@gmail.com",
+    "url": "https://strapi.io"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/habilelabs/strapi-html-editor.git"
+  },
+  "keywords": [
+    "html editor",
+    "strapi html",
+    "strapi editor",
+    "strapi",
+    "wysiwyg"
+  ],
+  "maintainers": [
+    {
+      "name": "A Strapi developer"
+    }
+  ],
+  "peerDependencies": {
+    "@strapi/strapi": "^4.0.0"
+  },
+  "resolutions": {
+    "yargs": "^17.2.1"
+  },
+  "engines": {
+    "node": ">=14.19.1 <=18.x.x",
+    "npm": ">=6.0.0"
+  },
+  "license": "MIT"
+}
